@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+/* Header specific things */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+.header-links {
+  display: flex;
+}
+li {
+  list-style-type: none;
+}
+
+/* Title specific things */
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+/* Information specific things */
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+}
+.card {
+  border: 3px solid blue;
+  /* Placeholder size values */
+  height: 200px;
+  width: 200px;
+}
+/* Quote specific things */
+.quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quote-body {
+  display: flex;
+}
+.quote-text {
+  justify-self: flex-start;
+  align-self: flex-start;
+}
+.quote-name {
+  justify-self: flex-end;
+  align-self: flex-end;
+}
+/* Ad specific things */
+.ad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ad-body {
+  display: flex;
+  align-items: center;
+}
+/* Footer specific things */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
