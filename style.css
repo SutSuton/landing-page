@@ -160,6 +160,7 @@ li {
 }
 .bloop {
   border-color: white;
+  border-width: 2px;
 }
 /* Footer specific things */
 .footer {
