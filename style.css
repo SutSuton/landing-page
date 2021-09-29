@@ -96,7 +96,6 @@ li {
 .card {
   border: 3px solid #3882f6;
   border-radius: 10%;
-  /* Placeholder size values */
   height: 126px;
   width: 126px;
 }
@@ -112,17 +111,29 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #e5e7eb;
+  padding: 80px;
 }
 .quote-body {
   display: flex;
+  flex-direction: column;
+  width: 700px;
+  height: 200px;
 }
 .quote-text {
   justify-self: flex-start;
   align-self: flex-start;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  font-family: 'light italic';
 }
 .quote-name {
   justify-self: flex-end;
   align-self: flex-end;
+  font-weight: 700;
+  font-size: 18px;
 }
 /* Ad specific things */
 .ad {
